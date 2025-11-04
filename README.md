@@ -42,7 +42,6 @@ We use vllm, apptainer and slurm. To adapt our setup to your own infrastructure,
 # Prepare
 ***
 1. Clone the repository
-3. Install the packages in `requirements.txt`.
 
 1. Download NCBI Corpus and extract into folder `ncbi`, with this structure:
     * `ncbi/NCBI_corpus_training.txt`
@@ -50,7 +49,8 @@ We use vllm, apptainer and slurm. To adapt our setup to your own infrastructure,
     * `ncbi/NCBI_corpus_testing.txt`
 
 2) Create a new environment in the root level of this repo.
-    * `run_slurm_python_task.sh` expects a `vldb26_env`. Adapt as needed if you want to use slurm.
+    * `run_slurm_python_task.sh` expects an env named `vldb26`. Adapt as needed if you want to use slurm.
+    * Packages are listed in `requirements.txt`.
 
 3) If you plan on running LLMs:
     * Either download the model files in advance, e.g. with `huggingface_hub.download_snapshot`, or remove the env flag `HF_HUB_OFFLINE=1` in `run_requests.ipynb` if your compute node has internet access.

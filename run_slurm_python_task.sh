@@ -2,7 +2,7 @@
 module load miniforge3
 module load apptainer
 
-source activate vldb26_env
+source activate vldb26
 
 cleanup() {
     if [ -f "$1" ]; then

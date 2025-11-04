@@ -1,0 +1,7 @@
+jupyterlab==4.4.10
+matplotlib==3.10.7
+multiprocess==0.70.18
+openai==2.7.1
+pandas==2.3.3
+papermill==2.6.0
+PuLP==3.3.0
