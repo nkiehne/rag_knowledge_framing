@@ -1,7 +1,8 @@
 #!/bin/bash
 module load miniforge3
 module load apptainer
-source activate dasfaa26_env
+
+source activate vldb26_env
 
 cleanup() {
     if [ -f "$1" ]; then
