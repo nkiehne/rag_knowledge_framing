@@ -69,13 +69,6 @@ Our finalized datasets are already included in the `data/` folder. Specifically:
     * `data/upadacitinib.jsonl`
     * `data/digitoxin.jsonl`
 
-## Dataset construction
-The steps to construct these files are detailed in:
-* NCBI Disease Annotation: `ncbi_prepare_annotation_task.ipynb`
-* Drug-Drug Interaction: TODO
-* Multiplication: TODO
-
-## DDI Setup ...?
 
 # Reproducing experiments and Evaluation
 * `deploy_jobs.ipynb` shows how to start the jobs to reproduce the results from our paper.
