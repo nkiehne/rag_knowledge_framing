@@ -2,7 +2,7 @@
 module load miniforge3
 module load apptainer
 
-source activate vldb26
+source activate rag_env
 
 cleanup() {
     if [ -f "$1" ]; then

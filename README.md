@@ -49,7 +49,7 @@ We use vllm, apptainer and slurm. To adapt our setup to your own infrastructure,
     * `ncbi/NCBI_corpus_testing.txt`
 
 2) Create a new environment in the root level of this repo.
-    * `run_slurm_python_task.sh` expects an env named `vldb26`. Adapt as needed if you want to use slurm.
+    * `run_slurm_python_task.sh` expects an env named `rag_env`. Adapt as needed if you want to use slurm.
     * Packages are listed in `requirements.txt`.
 
 3) If you plan on running LLMs:
@@ -72,5 +72,5 @@ Our finalized datasets are already included in the `data/` folder. Specifically:
 
 # Reproducing experiments and Evaluation
 * `deploy_jobs.ipynb` shows how to start the jobs to reproduce the results from our paper.
-    * Make sure to adapt tensor, data and expert-parallel settings for each model, such that your nodes are well utilized.
-* All code to produce tables, significance tests and figures is contained in `eval.ipynb`.
+    * Make sure to adapt tensor, data and expert-parallel settings for each model, such that your nodes are well utilized. Current recipes are tailored at nodes with 4xH100 (96GB each).
+
