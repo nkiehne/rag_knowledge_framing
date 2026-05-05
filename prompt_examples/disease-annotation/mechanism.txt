@@ -1,0 +1,66 @@
+Please follow the annotation guideline below and apply it on the given abstract.
+
+An Annotation Guideline for Disease Mentions in Abstracts
+
+This document provides instructions for annotating four categories of disease-related mentions in scientific abstracts. The goal is to accurately identify and classify textual strings that refer to specific diseases, classes of diseases, multiple mentions, and disease modifiers.
+
+### General Instructions
+
+Read the abstract carefully and identify all mentions related to diseases or medical conditions. For each mention, select the most appropriate category from the four options below and enclose the textual string in the corresponding tags.
+
+---
+
+### 1. Specific Disease
+
+**Tag:** `<category="SpecificDisease">[...]</category>`
+
+**Definition:** This category is for disease mentions that refer to a single, specific medical condition that has a well-defined meaning and does not represent a broader classification.
+
+**Rules:**
+
+*   **Specificity:** The term should be a concrete diagnosis. For example, "van der Woude syndrome" is a specific condition, whereas "inherited disorder" is not.
+*   **Noun Form:** The mention should typically be a noun or noun phrase representing the disease itself.
+*   **Acronyms:** When a disease is defined with its acronym (e.g., "Aarskog-Scott Syndrome (AAS)"), both the full name and the acronym should be tagged separately as `SpecificDisease`.
+
+---
+
+### 2. Disease Class
+
+**Tag:** `<category="DiseaseClass">[...]</category>`
+
+**Definition:** This category is used for disease mentions that describe a family, group, or general type of disease, rather than a single specific one.
+
+**Rules:**
+
+*   **Generality:** The term should be a broad classification that could contain multiple specific diseases.
+*   **Hierarchy:** Think of a `DiseaseClass` as a parent category. For example, `dystonia` is a `DiseaseClass`, while `oromandibular dystonia` is a `SpecificDisease` that falls under it.
+*   **Symptoms vs. Classes:** General symptoms or findings that represent a class of conditions (e.g., "muscular atrophy") should be tagged as `DiseaseClass`.
+
+---
+
+### 3. Composite Mention
+
+**Tag:** `<category="CompositeMention">[...]</category>`
+
+**Definition:** This category is for a single textual string that explicitly lists two or more distinct disease mentions.
+
+**Rules:**
+
+*   **Conjunctions:** Look for coordinating conjunctions like "and," "or," "and/or," or a series of commas that link multiple conditions.
+*   **Span:** The annotation must cover the entire phrase, including all individual disease names and the words connecting them.
+
+---
+
+### 4. Modifier
+
+**Tag:** `<category="Modifier">[...]</category>`
+
+**Definition:** This category is for a textual string where a disease name is used adjectivally to modify another noun, rather than referring to the disease itself.
+
+**Rules:**
+
+*   **Adjectival Function:** The disease term is not the subject but describes something else. It often answers the question "what kind?" or "which one?".
+*   **Context:** The disease name will typically precede nouns such as "patients," "gene," "symptoms," "phenotype," "group," "families," or "region."
+
+Here is the abstract:
+<abstract>Ataxia-telangiectasia ( A-T ) is a recessive multi-system disorder caused by mutations in the ATM gene at 11q22-q23 ( ref . 3 ) . The risk of cancer , especially lymphoid neoplasias , is substantially elevated in A-T patients and has long been associated with chromosomal instability . By analysing tumour DNA from patients with sporadic T-cell prolymphocytic leukaemia ( T-PLL ) , a rare clonal malignancy with similarities to a mature T-cell leukaemia seen in A-T , we demonstrate a high frequency of ATM mutations in T-PLL . In marked contrast to the ATM mutation pattern in A-T , the most frequent nucleotide changes in this leukaemia were missense mutations . These clustered in the region corresponding to the kinase domain , which is highly conserved in ATM-related proteins in mouse , yeast and Drosophila . The resulting amino-acid substitutions are predicted to interfere with ATP binding or substrate recognition . Two of seventeen mutated T-PLL samples had a previously reported A-T allele . In contrast , no mutations were detected in the p53 gene , suggesting that this tumour suppressor is not frequently altered in this leukaemia . Occasional missense mutations in ATM were also found in tumour DNA from patients with B-cell non-Hodgkins lymphomas ( B-NHL ) and a B-NHL cell line . The evidence of a significant proportion of loss-of-function mutations and a complete absence of the normal copy of ATM in the majority of mutated tumours establishes somatic inactivation of this gene in the pathogenesis of sporadic T-PLL and suggests that ATM acts as a tumour suppressor . As constitutional DNA was not available , a putative hereditary predisposition to T-PLL will require further investigation . . </abstract>

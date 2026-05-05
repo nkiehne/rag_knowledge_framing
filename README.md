@@ -32,18 +32,23 @@ We compile all used datasets into JSONL files in the `data/` folder.
 
 </details>
 
+### Dataset construction and prompts
+If you want to inspect the prompts, change or add to them, use the `create_[X]_dataset.ipynb`.
+
+Additionally, `prompt_examples` contains some excerpts in plain text format. 
+
 ## LLM inference setup
 We use vllm, apptainer and slurm. To adapt our setup to your own infrastructure, make sure to look into:
 * `run_requests.ipynb`: For vLLM model serving parameters and apptainer image setting.
 * `run_slurm_python_task.sh`: For job-level setup, e.g. module loading (e.g. cuda, miniforge, etc.) and environment setup.
-* `deploy_jobs.ipynb`: For dispatching your jobs.
+* `deploy_jobs.ipynb`: For bulk dispatching your jobs.
 * `deploy.py` lines 528-538: For sbatch configuration.
 
 # Prepare
 ***
 1. Clone the repository
 
-1. Download NCBI Corpus and extract into folder `ncbi`, with this structure:
+1. (Optional) If you want to create your own prompts or run our evaluation notebook, you will need some base dataset. Download NCBI Corpus and extract into folder `ncbi`, with this structure:
     * `ncbi/NCBI_corpus_training.txt`
     * `ncbi/NCBI_corpus_development.txt` 
     * `ncbi/NCBI_corpus_testing.txt`
@@ -70,7 +75,7 @@ Our finalized datasets are already included in the `data/` folder. Specifically:
     * `data/digitoxin.jsonl`
 
 
-# Reproducing experiments and Evaluation
+# Reproducing experiments
 * `deploy_jobs.ipynb` shows how to start the jobs to reproduce the results from our paper.
     * Make sure to adapt tensor, data and expert-parallel settings for each model, such that your nodes are well utilized. Current recipes are tailored at nodes with 4xH100 (96GB each).
-
+* `eval.ipynb` is the full code to compute all tables in the paper.

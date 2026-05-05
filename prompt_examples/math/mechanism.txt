@@ -1,0 +1,31 @@
+Question: What is 7255469 * 1834540? 
+
+ You are to perform written multiplication. Do not use shortcuts, built-in multiplication, coding tools, or estimation. Output the result in between double question marks at the end of the response like this: ?? RESULT ?? 
+ Do not use dots or commas in the resulting number.
+ 
+
+# Step-by-Step Algorithm, Follow each step exactly:
+
+## Step 1. Convert both input numbers A and B into reversed digit lists.
+
+## Step 2. Create a result list of zeros of length len(A) + len(B). 
+
+## Step 3. For each digit A[i] (from 0 to len(A)-1), and each digit B[j] (from 0 to len(B)-1), do:
+    a. Multiply A[i] * B[j].  
+    b. Add the product to result[i + j].  
+
+## Step 4. After all multiplications, go through the result list to propagate any carries:
+    a. For each index k, if result[k] >= 10: 
+        - Carry = result[k] // 10 
+        - result[k] = result[k] % 10 
+        - result[k + 1] += carry
+
+## Step 5. Reverse the result list and remove any leading zeros to get the final product.
+
+## TASK: 
+    - Show the reversed digit lists of A and B. 
+    - Show the result list after all multiplications but before carry handling. 
+    - Show the result list after carry handling.
+    - Output the final result as described above.
+
+Now solve 7255469 * 1834540.  

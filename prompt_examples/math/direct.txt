@@ -1,0 +1,1 @@
+What is 7255469 * 1834540? \n\n Output the result in between double question marks at the end of the response like this: ?? RESULT ?? \n Do not use dots or commas in the resulting number.

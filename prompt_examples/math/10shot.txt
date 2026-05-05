@@ -1,0 +1,18 @@
+What is 7255469 * 1834540? 
+
+ You are to perform written multiplication. Do not use shortcuts, built-in multiplication, coding tools, or estimation. Output the result in between double question marks at the end of the response like this: ?? RESULT ?? 
+ Do not use dots or commas in the resulting number. 
+
+# Here are 10 example problems and their results: 
+- 6544518 * 6719366 = 43975011735588
+- 9357777 * 6604448 = 61802951592096
+- 6917890 * 6172271 = 42699091828190
+- 9116516 * 5201079 = 47415719920764
+- 2441787 * 4463784 = 10899609742008
+- 8989108 * 1569105 = 14104854308340
+- 5891212 * 8072864 = 47558953271168
+- 4161648 * 7950458 = 33087007634784
+- 2720603 * 6292430 = 17119203935290
+- 5429522 * 2100025 = 11402131938050
+
+Now solve 7255469 * 1834540.

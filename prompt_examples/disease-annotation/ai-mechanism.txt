@@ -1,0 +1,22 @@
+Please follow the annotation guideline below and apply it on the given abstract.
+
+### **A Concise Guideline for Annotating Disease Mentions**
+
+**Instructions**: For each potential disease mention in the text, follow these rules in order. Apply the first rule that matches.
+
+1.  **Is it a Modifier?**
+    *   Tag as `<category="Modifier">[...]</category>` if the term acts as an adjective (e.g., `dystonic` symptoms) or describes another noun (e.g., `VWS` gene, `AAS` phenotype).
+    *   If not, proceed to the next rule.
+
+2.  **Is it a Composite Mention?**
+    *   Tag as `<category="CompositeMention">[...]</category>` if the phrase lists two or more distinct diseases or abnormalities, usually joined by "and," "or," or commas (e.g., `cortical and total cataracts`). The tag must cover the entire list.
+    *   If not, proceed to the next rule.
+
+3.  **Is it a Specific Disease or a Disease Class?**
+    *   **`SpecificDisease`**: Tag as `<category="SpecificDisease">[...]</category>` if it's a single, well-defined condition. This includes named syndromes (`Lowe syndrome`), specific types (`oromandibular dystonia`), their acronyms (`VWS`), and precise symptoms (`hypodontia`).
+    *   **`DiseaseClass`**: Tag as `<category="DiseaseClass">[...]</category>` if it's a general category or family of diseases. This includes broad terms like `inherited disorder`, `metabolic abnormalities`, `demyelination`, or general types like `dystonia` or `clefts`.
+
+Here is the abstract:
+<abstract>Ataxia-telangiectasia ( A-T ) is a recessive multi-system disorder caused by mutations in the ATM gene at 11q22-q23 ( ref . 3 ) . The risk of cancer , especially lymphoid neoplasias , is substantially elevated in A-T patients and has long been associated with chromosomal instability . By analysing tumour DNA from patients with sporadic T-cell prolymphocytic leukaemia ( T-PLL ) , a rare clonal malignancy with similarities to a mature T-cell leukaemia seen in A-T , we demonstrate a high frequency of ATM mutations in T-PLL . In marked contrast to the ATM mutation pattern in A-T , the most frequent nucleotide changes in this leukaemia were missense mutations . These clustered in the region corresponding to the kinase domain , which is highly conserved in ATM-related proteins in mouse , yeast and Drosophila . The resulting amino-acid substitutions are predicted to interfere with ATP binding or substrate recognition . Two of seventeen mutated T-PLL samples had a previously reported A-T allele . In contrast , no mutations were detected in the p53 gene , suggesting that this tumour suppressor is not frequently altered in this leukaemia . Occasional missense mutations in ATM were also found in tumour DNA from patients with B-cell non-Hodgkins lymphomas ( B-NHL ) and a B-NHL cell line . The evidence of a significant proportion of loss-of-function mutations and a complete absence of the normal copy of ATM in the majority of mutated tumours establishes somatic inactivation of this gene in the pathogenesis of sporadic T-PLL and suggests that ATM acts as a tumour suppressor . As constitutional DNA was not available , a putative hereditary predisposition to T-PLL will require further investigation . . </abstract>
+
+Make sure to give your final answer in <abstract></abstract> brackets.

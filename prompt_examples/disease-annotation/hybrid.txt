@@ -1,0 +1,90 @@
+Here is an example annotation process that I need you to apply on a new abstract (given afterwards):
+
+INPUT: <abstract>Glucose-6-phosphate dehydrogenase ( G6PD ) deficiency in RBCs was found significantly more frequently in 210 male cataractous patients than in 672 control subjects of Sardinian origin . The frequency of the deficiency was increasingly higher in presenile cataracts . In the G6PD-deficient group , the incidence of cortical and total cataracts was also increased . It is suggested that decrease of the G6PD activity in the lens , which accompanies its deficiency in the erythrocyte , might play a role in the cataracto-genesis of these patients . Moreover , G6PD deficiency should be added to other conditions , such as the galactosemic states and riboflavin deficiency , where cataracts represent a sensitive indicator of metabolic abnormalities of the RBC . . </abstract>
+
+**Step 1: Identify All Potential Disease-Related Terms**
+Okay, I found the following terms related to disease:
+1. "Glucose-6-phosphate dehydrogenase ( G6PD )"
+2. "cataractous"
+3. "deficiency"
+4. "presenile"
+5. "cataracts"
+6. "G6PD-deficient"
+7. "cortical and total cataracts"
+8. "G6PD activity"
+9. "G6PD deficiency"
+10. "galactosemic"
+11. "riboflavin deficiency"
+12. "metabolic abnormalities"
+
+**Step 2: Classify Each Identified Mention**
+Next, I need to classify each identified mention into one of the four categories or discard it if it does not fit.
+1.  **"Glucose-6-phosphate dehydrogenase (G6PD)"**: While G6PD is an enzyme, the term is frequently used as a shorthand to refer to the disease caused by its deficiency. In this context, it functions as a specific disease name that can be linked to a single, well-defined condition. Therefore, it is classified as a *SpecificDisease*.
+
+2.  **"cataractous"**: This term is an adjective used to describe a noun (e.g., "cataractous lens"). It modifies another word to indicate the presence of cataracts but does not represent the disease itself in this form. For this reason, it is classified as a *Modifier*.
+
+3.  **"deficiency"**: Standing alone, "deficiency" is a general term that does not name a specific disease. It describes a state of lacking something and requires more context (e.g., "iron deficiency") to become a diagnosable condition. Thus, on its own, it is *discarded*.
+
+4.  **"presenile"**: This is an adjective that describes the onset of a condition as occurring earlier than is typical, but it is not a disease itself. It modifies a condition (e.g., "presenile dementia") but is too general to be a modifier of a specific disease entity in the way other terms are. Therefore, it is *discarded*.
+
+5.  **"cataracts"**: This refers to a specific medical condition involving the clouding of the lens in the eye. Although there are different types, "cataracts" itself is considered a single, specific diagnosis. It can be linked to a clear definition and is not a broad family of diseases. This makes it a *SpecificDisease*.
+
+6.  **"G6PD-deficient"**: This is an adjectival phrase used to describe a person or cell that has a deficiency of the G6PD enzyme. It modifies a noun (e.g., "a G6PD-deficient patient") rather than being the noun phrase for the disease itself. Consequently, it is classified as a *Modifier*.
+
+7.  **"cortical and total cataracts"**: This phrase explicitly names two distinct types of cataracts ("cortical" and "total"). The use of "and" indicates that it is referring to two separate disease mentions joined together. This fits the definition of a *CompositeMention*.
+
+8.  **"G6PD activity"**: This phrase refers to the function or measurement of the G6PD enzyme. It describes a biological process or a laboratory value, not a disease or a health condition. For this reason, it is *discarded*.
+
+9.  **"G6PD deficiency"**: This is the full and specific name of a recognized medical disorder. It refers to a single, definable inherited condition, which makes it a *SpecificDisease*.
+
+10. **"galactosemic"**: This is an adjective derived from the disease "galactosemia." It is used to modify a noun, for instance, a "galactosemic patient." Since it describes a noun in the context of a disease, it is classified as a *Modifier*.
+
+11. **"riboflavin deficiency"**: This term refers to a specific nutritional disorder with a well-defined cause (lack of riboflavin) and a specific set of symptoms. It is considered a single, distinct medical condition. Therefore, it is classified as a *SpecificDisease*.
+
+12. **"metabolic abnormalities"**: This is a broad, high-level term that encompasses a wide range of individual diseases and disorders related to metabolism (e.g., diabetes, phenylketonuria). Because it represents a family or class of many specific diseases, it is classified as a *DiseaseClass*.
+
+The final list of mentions is thus:
+1.  **"Glucose-6-phosphate dehydrogenase ( G6PD )"**: SpecificDisease
+2.  **"cataractous"**: Modifier
+3.  **"deficiency"**: discard
+4.  **"presenile"**: discard
+5.  **"cataracts"**: SpecificDisease
+6.  **"G6PD-deficient"**: Modifier
+7.  **"cortical and total cataracts"**: CompositeMention
+8.  **"G6PD activity"**: discard
+9.  **"G6PD deficiency"**: SpecificDisease
+10. **"galactosemic"**: modifier
+11. **"riboflavin deficiency"**: SpecificDisease
+12. **"metabolic abnormalities"**: DiseaseClass
+
+**Step 3: Apply Annotation Formatting**
+Next, I need to apply the formatting with the correct XML-style tags. The format is <category="[CategoryName]">[term or phrase]</category>, where [CategoryName] is one of the four defined categories.
+So, we get:
+<abstract><category="SpecificDisease">Glucose-6-phosphate dehydrogenase ( G6PD ) deficiency</category> in RBCs was found significantly more frequently in 210 male <category="Modifier">cataractous</category> patients than in 672 control subjects of Sardinian origin . The frequency of the deficiency was increasingly higher in <category="Modifier">presenile</category> <category="SpecificDisease">cataracts</category> . In the <category="Modifier">G6PD-deficient</category> group , the incidence of <category="CompositeMention">cortical and total cataracts</category> was also increased . It is suggested that decrease of the G6PD activity in the lens , which accompanies its deficiency in the erythrocyte , might play a role in the cataracto-genesis of these patients . Moreover , <category="SpecificDisease">G6PD deficiency</category> should be added to other conditions , such as the <category="Modifier">galactosemic</category> states and <category="SpecificDisease">riboflavin deficiency</category> , where <category="SpecificDisease">cataracts</category> represent a sensitive indicator of <category="DiseaseClass">metabolic abnormalities</category> of the RBC . . </abstract>
+
+**Step 4: Conduct a Final Review**
+Now, I need to check whether I correctly annotated all mentions.
+1.  **"Glucose-6-phosphate dehydrogenase ( G6PD )"**: SpecificDisease. --> Correct.
+2.  **"cataractous"**: Modifier. --> Correct.
+3.  **"deficiency"**: discard. --> Correct.
+4.  **"presenile"**: discard. --> Incorrect. This should have been discarded!
+5.  **"cataracts"**: SpecificDisease. --> Correct.
+6.  **"G6PD-deficient"**: Modifier. --> Correct.
+7.  **"cortical and total cataracts"**: CompositeMention. --> Correct.
+8.  **"G6PD activity"**: discard. --> Correct.
+9.  **"G6PD deficiency"**: SpecificDisease. --> Correct.
+10. **"galactosemic"**: modifier. --> Correct.
+11. **"riboflavin deficiency"**: SpecificDisease. --> Correct.
+12. **"metabolic abnormalities"**: DiseaseClass. --> Correct.
+
+After careful review, most mentions were annotated correctly, with one exception.
+The revised abstract is thus:
+<abstract><category="SpecificDisease">Glucose-6-phosphate dehydrogenase ( G6PD ) deficiency</category> in RBCs was found significantly more frequently in 210 male <category="Modifier">cataractous</category> patients than in 672 control subjects of Sardinian origin . The frequency of the deficiency was increasingly higher in presenile <category="SpecificDisease">cataracts</category> . In the <category="Modifier">G6PD-deficient</category> group , the incidence of <category="CompositeMention">cortical and total cataracts</category> was also increased . It is suggested that decrease of the G6PD activity in the lens , which accompanies its deficiency in the erythrocyte , might play a role in the cataracto-genesis of these patients . Moreover , <category="SpecificDisease">G6PD deficiency</category> should be added to other conditions , such as the <category="Modifier">galactosemic</category> states and <category="SpecificDisease">riboflavin deficiency</category> , where <category="SpecificDisease">cataracts</category> represent a sensitive indicator of <category="DiseaseClass">metabolic abnormalities</category> of the RBC . . </abstract>
+
+**Step 5: Format your final answer**
+Did I enclose my final answer with <abstract></<abstract>>? Yes.
+
+----- END OF EXAMPLE -----
+
+Now, please apply the same logic and reasoning to this abstract, and this abstract only:
+<abstract>Ataxia-telangiectasia ( A-T ) is a recessive multi-system disorder caused by mutations in the ATM gene at 11q22-q23 ( ref . 3 ) . The risk of cancer , especially lymphoid neoplasias , is substantially elevated in A-T patients and has long been associated with chromosomal instability . By analysing tumour DNA from patients with sporadic T-cell prolymphocytic leukaemia ( T-PLL ) , a rare clonal malignancy with similarities to a mature T-cell leukaemia seen in A-T , we demonstrate a high frequency of ATM mutations in T-PLL . In marked contrast to the ATM mutation pattern in A-T , the most frequent nucleotide changes in this leukaemia were missense mutations . These clustered in the region corresponding to the kinase domain , which is highly conserved in ATM-related proteins in mouse , yeast and Drosophila . The resulting amino-acid substitutions are predicted to interfere with ATP binding or substrate recognition . Two of seventeen mutated T-PLL samples had a previously reported A-T allele . In contrast , no mutations were detected in the p53 gene , suggesting that this tumour suppressor is not frequently altered in this leukaemia . Occasional missense mutations in ATM were also found in tumour DNA from patients with B-cell non-Hodgkins lymphomas ( B-NHL ) and a B-NHL cell line . The evidence of a significant proportion of loss-of-function mutations and a complete absence of the normal copy of ATM in the majority of mutated tumours establishes somatic inactivation of this gene in the pathogenesis of sporadic T-PLL and suggests that ATM acts as a tumour suppressor . As constitutional DNA was not available , a putative hereditary predisposition to T-PLL will require further investigation . . </abstract>

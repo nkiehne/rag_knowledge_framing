@@ -1,0 +1,367 @@
+DRUG_B_NAME,DRUG_B_ID,GT,DDI_TYPE
+Hydroxyurea,DB01005,NO,NONE
+Cyclophosphamide,DB00531,YES,MAJOR
+Bosutinib,DB06616,YES,MAJOR
+Urokinase,DB00013,NO,NONE
+Ethambutol,DB00330,YES,MAJOR
+Beta carotene,DB06755,NO,NONE
+Irbesartan,DB01029,YES,MAJOR
+Paliperidone,DB01267,YES,MAJOR
+Sparsentan,DB12548,YES,MAJOR
+Ponesimod,DB12016,YES,MAJOR
+Levomefolic acid,DB11256,NO,NONE
+Desipramine,DB01151,YES,MAJOR
+Dextromethorphan,DB00514,NO,NONE
+Eslicarbazepine acetate,DB09119,YES,MAJOR
+Rifabutin,DB00615,YES,MAJOR
+Quinagolide,DB09097,NO,NONE
+Abametapir,DB11932,YES,MAJOR
+Letrozole,DB01006,NO,NONE
+Rezafungin,DB16310,NO,NONE
+Mitotane,DB00648,YES,MAJOR
+Apremilast,DB05676,YES,MAJOR
+Tixocortol,DB09091,YES,MODERATE
+Hydralazine,DB01275,YES,MAJOR
+Methoxy polyethylene glycol-epoetin beta,DB09107,NO,NONE
+Ruxolitinib,DB08877,NO,NONE
+Fidaxomicin,DB08874,NO,NONE
+Linaclotide,DB08890,NO,NONE
+Tolfenamic acid,DB09216,NO,NONE
+Cariprazine,DB06016,NO,NONE
+Bupropion,DB01156,NO,NONE
+Chlorpromazine,DB00477,YES,MAJOR
+Nirogacestat,DB12005,YES,MAJOR
+Digoxin,DB00390,YES,MODERATE
+Etonogestrel,DB00294,NO,NONE
+Crizanlizumab,DB15271,NO,NONE
+Osilodrostat,DB11837,YES,MAJOR
+Fosphenytoin,DB01320,YES,MAJOR
+Carfilzomib,DB08889,YES,MAJOR
+Lenalidomide,DB00480,NO,NONE
+Carbamoylcholine,DB00411,NO,NONE
+Serdexmethylphenidate,DB16629,NO,NONE
+Ferric pyrophosphate citrate,DB13995,NO,NONE
+Clofazimine,DB00845,YES,MAJOR
+Esterified estrogens,DB09381,NO,NONE
+Nortriptyline,DB00540,YES,MODERATE
+Pitavastatin,DB08860,NO,NONE
+Medroxyprogesterone acetate,DB00603,YES,MAJOR
+Estradiol acetate,DB13952,YES,MAJOR
+Alpelisib,DB12015,YES,MAJOR
+Dirithromycin,DB00954,YES,MAJOR
+Erythropoietin,DB00016,NO,NONE
+Acetylcysteine,DB06151,NO,NONE
+Ustekinumab,DB05679,NO,NONE
+Vericiguat,DB15456,NO,NONE
+Vitamin E,DB00163,YES,MAJOR
+Indomethacin,DB00328,NO,NONE
+Metronidazole,DB00916,YES,MAJOR
+Adagrasib,DB15568,YES,MAJOR
+Cefepime,DB01413,NO,NONE
+Isoniazid,DB00951,YES,MAJOR
+Vildagliptin,DB04876,NO,NONE
+Enmetazobactam,DB18716,NO,NONE
+Istradefylline,DB11757,YES,MAJOR
+Docetaxel,DB01248,YES,MAJOR
+Trimetazidine,DB09069,NO,NONE
+Hydrochlorothiazide,DB00999,YES,MODERATE
+Paroxetine,DB00715,NO,NONE
+Phenytoin,DB00252,YES,MAJOR
+Miglitol,DB00491,NO,NONE
+Letermovir,DB12070,YES,MAJOR
+Miconazole,DB01110,YES,MAJOR
+Sulopenem etzadroxil,DB16335,NO,NONE
+Sulfoxone,DB01145,NO,NONE
+Ropinirole,DB00268,NO,NONE
+Empagliflozin,DB09038,NO,NONE
+Netarsudil,DB13931,NO,NONE
+Indinavir,DB00224,YES,MAJOR
+Levothyroxine,DB00451,YES,MAJOR
+Latanoprost,DB00654,NO,NONE
+Brentuximab vedotin,DB08870,YES,MAJOR
+Futibatinib,DB15149,YES,MODERATE
+Chlorotrianisene,DB00269,NO,NONE
+Amlodipine,DB00381,YES,MODERATE
+Orphenadrine,DB01173,YES,MAJOR
+Oxybutynin,DB01062,YES,MAJOR
+Adefovir dipivoxil,DB00718,NO,NONE
+Lincomycin,DB01627,NO,NONE
+Mercaptopurine,DB01033,NO,NONE
+Aceclofenac,DB06736,NO,NONE
+Olaparib,DB09074,YES,MAJOR
+Talimogene laherparepvec,DB13896,NO,NONE
+Felbamate,DB00949,YES,MAJOR
+Tamoxifen,DB00675,YES,MAJOR
+Brincidofovir,DB12151,NO,NONE
+Primidone,DB00794,YES,MAJOR
+Ethchlorvynol,DB00189,NO,NONE
+Ripretinib,DB14840,YES,MAJOR
+Buprenorphine,DB00921,YES,MAJOR
+Somatostatin,DB09099,YES,MAJOR
+Chloramphenicol,DB00446,YES,MAJOR
+Fenofibric acid,DB13873,NO,NONE
+Calcium carbimide,DB09116,NO,NONE
+Estrone,DB00655,NO,NONE
+Ganciclovir,DB01004,NO,NONE
+Rilpivirine,DB08864,YES,MAJOR
+Tepotinib,DB15133,YES,MAJOR
+Filgrastim,DB00099,NO,NONE
+Ozenoxacin,DB12924,NO,NONE
+Fondaparinux,DB00569,NO,NONE
+Carboxymethylcellulose,DB11059,NO,NONE
+Polymyxin B,DB00781,NO,NONE
+Hyaluronidase (human recombinant),DB06205,NO,NONE
+Telithromycin,DB00976,YES,MAJOR
+Canagliflozin,DB08907,YES,MAJOR
+Sildenafil,DB00203,YES,MAJOR
+Ketoconazole,DB01026,YES,MAJOR
+Acyclovir,DB00787,NO,NONE
+Calcitriol,DB00136,YES,MAJOR
+Dexlansoprazole,DB05351,NO,NONE
+Nelfinavir,DB00220,YES,MAJOR
+Fosinopril,DB00492,NO,NONE
+Palbociclib,DB09073,YES,MAJOR
+Clonidine,DB00575,YES,MAJOR
+Dacomitinib,DB11963,YES,MAJOR
+Nitroglycerin,DB00727,NO,NONE
+Zafirlukast,DB00549,YES,MAJOR
+Bufexamac,DB13346,NO,NONE
+Irinotecan,DB00762,NO,NONE
+Stiripentol,DB09118,YES,MAJOR
+Ubrogepant,DB15328,YES,MODERATE
+Valproic acid,DB00313,YES,MAJOR
+Favipiravir,DB12466,YES,MAJOR
+Olutasidenib,DB16267,YES,MAJOR
+Sarecycline,DB12035,YES,MAJOR
+Ambrisentan,DB06403,YES,MODERATE
+Galcanezumab,DB14042,NO,NONE
+Melphalan flufenamide,DB16627,NO,NONE
+Astemizole,DB00637,YES,MAJOR
+Trazodone,DB00656,YES,MAJOR
+Nefazodone,DB01149,YES,MAJOR
+Lefamulin,DB12825,YES,MAJOR
+Warfarin,DB00682,YES,MAJOR
+Spesolimab,DB15626,NO,NONE
+Ziprasidone,DB00246,YES,MAJOR
+Casimersen,DB14984,NO,NONE
+Zinc chloride,DB14533,NO,NONE
+Topiramate,DB00273,YES,MAJOR
+Tofacitinib,DB08895,NO,NONE
+Methadone,DB00333,YES,MAJOR
+Glyburide,DB01016,YES,MAJOR
+Tolbutamide,DB01124,NO,NONE
+Midostaurin,DB06595,YES,MAJOR
+Rufinamide,DB06201,YES,MAJOR
+Pioglitazone,DB01132,NO,NONE
+Mifepristone,DB00834,YES,MAJOR
+Taurine,DB01956,NO,NONE
+Ginkgo biloba,DB01381,YES,MAJOR
+Certolizumab pegol,DB08904,YES,MAJOR
+Darunavir,DB01264,YES,MAJOR
+Saquinavir,DB01232,YES,MAJOR
+Perampanel,DB08883,YES,MAJOR
+Gepirone,DB12184,YES,MODERATE
+Ticagrelor,DB08816,YES,MAJOR
+Golodirsen,DB15593,NO,NONE
+Liraglutide,DB06655,NO,NONE
+Epicriptine,DB11275,NO,NONE
+Pirtobrutinib,DB17472,YES,MAJOR
+Sarilumab,DB11767,YES,MAJOR
+Oseltamivir,DB00198,NO,NONE
+Lomitapide,DB08827,YES,MAJOR
+Gliclazide,DB01120,NO,NONE
+Carbocisteine,DB04339,NO,NONE
+Duloxetine,DB00476,NO,NONE
+Venetoclax,DB11581,YES,MAJOR
+Sulbactam,DB09324,NO,NONE
+Vorasidenib,DB17097,YES,MAJOR
+Pemigatinib,DB15102,NO,NONE
+Niflumic acid,DB04552,NO,NONE
+Mecasermin,DB01277,NO,NONE
+Prednisolone acetate,DB15566,YES,MODERATE
+Dasatinib,DB01254,YES,MAJOR
+Asunaprevir,DB11586,YES,MAJOR
+Tislelizumab,DB14922,NO,NONE
+Repaglinide,DB00912,NO,NONE
+Oritavancin,DB04911,YES,MAJOR
+Voxelotor,DB14975,YES,MAJOR
+Atosiban,DB09059,NO,NONE
+Lisinopril,DB00722,NO,NONE
+Paclitaxel,DB01229,YES,MAJOR
+Flurbiprofen,DB00712,NO,NONE
+Technetium Tc-99m tetrofosmin,DB09160,NO,NONE
+Nonacog beta pegol,DB13933,NO,NONE
+Peppermint oil,DB11198,NO,NONE
+Tipranavir,DB00932,YES,MAJOR
+Delgocitinib,DB16133,NO,NONE
+Esomeprazole,DB00736,NO,NONE
+Tacrolimus,DB00864,YES,MAJOR
+Abaloparatide,DB05084,NO,NONE
+Cytarabine,DB00987,NO,NONE
+Acetaminophen,DB00316,YES,MAJOR
+Oxcarbazepine,DB00776,YES,MAJOR
+Prasugrel,DB06209,NO,NONE
+Fenoprofen,DB00573,NO,NONE
+Caffeine,DB00201,NO,NONE
+Palovarotene,DB05467,YES,MAJOR
+Carbidopa,DB00190,NO,NONE
+Momelotinib,DB11763,NO,NONE
+Bempedoic acid,DB11936,NO,NONE
+Posaconazole,DB01263,YES,MAJOR
+Hydroxyzine,DB00557,YES,MAJOR
+Lorcaserin,DB04871,NO,NONE
+Clobazam,DB00349,YES,MAJOR
+Levoketoconazole,DB05667,YES,MAJOR
+Cenegermin,DB13926,NO,NONE
+Nicorandil,DB09220,YES,MODERATE
+Gadoxetic acid,DB08884,NO,NONE
+Tinidazole,DB00911,NO,NONE
+Propofol,DB00818,YES,MAJOR
+Trastuzumab deruxtecan,DB14962,NO,NONE
+Cefdinir,DB00535,NO,NONE
+Diosmin,DB08995,YES,MAJOR
+Hydroxyprogesterone caproate,DB06789,NO,NONE
+Fostemsavir,DB11796,YES,MODERATE
+Secnidazole,DB12834,NO,NONE
+Linagliptin,DB08882,YES,MAJOR
+Isotretinoin,DB00982,NO,NONE
+Glycerol phenylbutyrate,DB08909,YES,MAJOR
+Terbinafine,DB00857,YES,MAJOR
+Avacopan,DB15011,YES,MAJOR
+Daclatasvir,DB09102,YES,MAJOR
+Clarithromycin,DB01211,YES,MAJOR
+Trimebutine,DB09089,YES,MODERATE
+Roxithromycin,DB00778,YES,MAJOR
+Eravacycline,DB12329,NO,NONE
+Sotagliflozin,DB12713,YES,MAJOR
+Cantharidin,DB12328,NO,NONE
+Crofelemer,DB04941,NO,NONE
+Prednisone,DB00635,YES,MODERATE
+Ganaxolone,DB05087,NO,NONE
+Emapalumab,DB14724,YES,MAJOR
+Tebentafusp,DB15283,NO,NONE
+Midazolam,DB00683,YES,MAJOR
+Temozolomide,DB00853,NO,NONE
+Voriconazole,DB00582,YES,MAJOR
+Captopril,DB01197,NO,NONE
+Phenobarbital,DB01174,YES,MAJOR
+Difluocortolone,DB09095,YES,MODERATE
+Maribavir,DB06234,YES,MAJOR
+Florbetaben F-18,DB09148,NO,NONE
+Bivalirudin,DB00006,NO,NONE
+Revumenib,DB18515,YES,MODERATE
+Cimetidine,DB00501,YES,MAJOR
+Deuruxolitinib,DB18847,NO,NONE
+Ritonavir,DB00503,YES,MODERATE
+Bremelanotide,DB11653,NO,NONE
+Chromic citrate,DB14526,NO,NONE
+Afatinib,DB08916,YES,MAJOR
+Polaprezinc,DB09221,NO,NONE
+Estazolam,DB01215,NO,NONE
+Mirtazapine,DB00370,YES,MAJOR
+Leronlimab,DB05941,NO,NONE
+Dienestrol,DB00890,NO,NONE
+Baricitinib,DB11817,NO,NONE
+Trovafloxacin,DB00685,YES,MODERATE
+Milnacipran,DB04896,YES,MAJOR
+Miltefosine,DB09031,NO,NONE
+Fluconazole,DB00196,YES,MAJOR
+Doxorubicin,DB00997,YES,MAJOR
+Curcumin,DB11672,YES,MAJOR
+Tapinarof,DB06083,NO,NONE
+Oxetacaine,DB12532,NO,NONE
+Diclofenac,DB00586,NO,NONE
+Ciprofloxacin,DB00537,YES,MAJOR
+Bromocriptine,DB01200,NO,NONE
+Relebactam,DB12377,NO,NONE
+Zoledronic acid,DB00399,NO,NONE
+Thalidomide,DB01041,YES,MAJOR
+Equine Botulinum Neurotoxin A Immune FAB2,DB13900,NO,NONE
+Rifampin,DB01045,YES,MAJOR
+Fluvoxamine,DB00176,YES,MAJOR
+Remdesivir,DB14761,YES,MAJOR
+Pralsetinib,DB15822,YES,MAJOR
+Anakinra,DB00026,YES,MAJOR
+Fostamatinib,DB12010,YES,MAJOR
+Bosentan,DB00559,YES,MAJOR
+Tecovirimat,DB12020,YES,MAJOR
+Desvenlafaxine,DB06700,YES,MAJOR
+Isocarboxazid,DB01247,NO,NONE
+Vigabatrin,DB01080,NO,NONE
+Caplacizumab,DB06081,NO,NONE
+Pexidartinib,DB12978,NO,NONE
+Icotinib,DB11737,NO,NONE
+Lutetium Lu-177 vipivotide tetraxetan,DB16778,NO,NONE
+Evening primrose oil,DB11358,NO,NONE
+Telbivudine,DB01265,NO,NONE
+Cyanocobalamin,DB00115,NO,NONE
+Anethole trithione,DB13853,NO,NONE
+Anileridine,DB00913,NO,NONE
+Naproxen,DB00788,NO,NONE
+Iloprost,DB01088,NO,NONE
+Tianeptine,DB09289,NO,NONE
+Eflornithine,DB06243,NO,NONE
+Tetracycline,DB00759,YES,MAJOR
+Dihydroergotamine,DB00320,YES,MAJOR
+Ciclopirox,DB01188,NO,NONE
+Meclizine,DB00737,NO,NONE
+Dulaglutide,DB09045,NO,NONE
+Neratinib,DB11828,YES,MAJOR
+Enzalutamide,DB08899,YES,MODERATE
+Acalabrutinib,DB11703,YES,MAJOR
+Elafibranor,DB05187,YES,MAJOR
+Lapatinib,DB01259,YES,MAJOR
+Fomivirsen,DB06759,NO,NONE
+Cyclosporine,DB00091,YES,MAJOR
+Ceftobiprole medocaril,DB14733,NO,NONE
+Mefloquine,DB00358,YES,MAJOR
+Enasidenib,DB13874,YES,MAJOR
+Equine Botulinum Neurotoxin G Immune FAB2,DB13899,NO,NONE
+Ketotifen,DB00920,NO,NONE
+Belumosudil,DB16703,YES,MAJOR
+Nelarabine,DB01280,NO,NONE
+Lorlatinib,DB12130,YES,MAJOR
+Estradiol,DB00783,NO,NONE
+Tocilizumab,DB06273,YES,MAJOR
+Candesartan cilexetil,DB00796,NO,NONE
+Raloxifene,DB00481,YES,MAJOR
+Edaravone,DB12243,NO,NONE
+Doxycycline,DB00254,NO,NONE
+Zaleplon,DB00962,NO,NONE
+Dantrolene,DB01219,NO,NONE
+Esketamine,DB11823,YES,MAJOR
+Elagolix,DB11979,YES,MAJOR
+Vardenafil,DB00862,YES,MAJOR
+Glucagon,DB00040,NO,NONE
+Aliskiren,DB09026,NO,NONE
+Chloroprocaine,DB01161,NO,NONE
+Triclabendazole,DB12245,YES,MAJOR
+Etoricoxib,DB01628,YES,MAJOR
+Edoxaban,DB09075,YES,MODERATE
+Nateglinide,DB00731,NO,NONE
+Pseudoephedrine,DB00852,NO,NONE
+Carbamazepine,DB00564,YES,MAJOR
+Iron Dextran,DB00893,NO,NONE
+Testosterone,DB00624,YES,MAJOR
+Indigotindisulfonic acid,DB11577,NO,NONE
+Levoleucovorin,DB11596,NO,NONE
+Nicotine,DB00184,NO,NONE
+Ipilimumab,DB06186,NO,NONE
+Butamben,DB11148,NO,NONE
+Metamizole,DB04817,NO,NONE
+Sorafenib,DB00398,YES,MAJOR
+Prednisolone phosphate,DB14631,YES,MODERATE
+Sotorasib,DB15569,YES,MAJOR
+Mirabegron,DB08893,YES,MAJOR
+Lonafarnib,DB06448,YES,MAJOR
+Hydrocortisone phosphate,DB14542,NO,NONE
+Darifenacin,DB00496,NO,NONE
+Pasireotide,DB06663,YES,MAJOR
+Miglustat,DB00419,NO,NONE
+Canakinumab,DB06168,YES,MAJOR
+Von Willebrand factor human,DB13133,NO,NONE
+Golimumab,DB06674,YES,MAJOR
+Niacin,DB00627,YES,MAJOR
+Atorvastatin,DB01076,NO,NONE
+Vitamin A,DB00162,NO,NONE
+Nafcillin,DB00607,YES,MAJOR
